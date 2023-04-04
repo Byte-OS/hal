@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 arch = { path = "../../arch" }
+log = "0.4.16"
+frame_allocator = { path = "../frame_allocator" }
