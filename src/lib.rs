@@ -3,7 +3,7 @@
 #![feature(const_mut_refs)]
 #![feature(const_option)]
 
-use arch::time::Time;
+use polyhal::time::Time;
 use core::{cmp::Ordering, ops::Add};
 
 extern crate alloc;
