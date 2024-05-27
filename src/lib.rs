@@ -7,7 +7,6 @@ use polyhal::time::Time;
 use core::{cmp::Ordering, ops::Add};
 
 extern crate alloc;
-pub mod interrupt;
 
 pub fn current_nsec() -> usize {
     // devices::RTC_DEVICES.lock()[0].read() as usize
